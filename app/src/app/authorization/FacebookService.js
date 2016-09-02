@@ -10,7 +10,6 @@
     function FacebookService($state, $q) {
 
         return {
-            getMyLastName: getMyLastName,
             isLogged: isLogged,
             loginRegister: loginRegister,
             logout: logout

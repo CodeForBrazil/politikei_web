@@ -14,7 +14,8 @@
             loadAllProposicoes: function() {
                 return $http({
                     method: 'GET',
-                    url: app_config.server + 'propositions/'
+                    //url: app_config.server + 'propositions/'
+                    url: 'http://localhost:8080/props'
                 }).then(function successCallback(response) {
                     return response.data.proposicoes;
                 });
